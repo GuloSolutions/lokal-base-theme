@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Box with image, text, social icons.
- * Slug: frost/general-author-box
+ * Slug: lokal/general-author-box
  * Categories: call-to-action
  */
 ?>

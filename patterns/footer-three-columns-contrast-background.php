@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with text, links, buttons.
- * Slug: frost/footer-three-columns-contrast-background
+ * Slug: lokal/footer-three-columns-contrast-background
  * Categories: footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
@@ -15,7 +15,7 @@
 <p>© <?php echo esc_html( gmdate( 'Y' ) ); ?> Your Company LLC</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p><a href="#"><?php echo esc_html__( 'Privacy Policy', 'frost' ); ?></a> · <a href="#"><?php echo esc_html__( 'Terms of Service', 'frost' ); ?></a> · <a href="#"><?php echo esc_html__( 'Contact Us', 'frost' ); ?></a></p>
+<p><a href="#"><?php echo esc_html__( 'Privacy Policy', 'lokal' ); ?></a> · <a href="#"><?php echo esc_html__( 'Terms of Service', 'lokal' ); ?></a> · <a href="#"><?php echo esc_html__( 'Contact Us', 'lokal' ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#000","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","className":"is-style-default","style":{"spacing":{"blockGap":"10px"}}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default">

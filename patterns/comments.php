@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Comments section and form
- * Slug: frost/comments
+ * Slug: lokal/comments
  * Inserter: false
  */
 ?>

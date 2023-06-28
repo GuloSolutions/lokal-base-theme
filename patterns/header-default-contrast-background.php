@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header with site title, navigation.
- * Slug: frost/header-default-contrast-background
+ * Slug: lokal/header-default-contrast-background
  * Categories: header
  * Block Types: core/template-part/header
  */

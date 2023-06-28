@@ -1,14 +1,14 @@
 <?php
 /**
- * This file adds functions to the Frost WordPress theme.
+ * This file adds functions to the Lokal Base WordPress theme.
  *
- * @package Frost
+ * @package Lokal Base
  * @author  WP Engine
  * @license GNU General Public License v2 or later
- * @link    https://frostwp.com/
+ * @link    https://lokalwp.com/
  */
 
-if ( ! function_exists( 'frost_setup' ) ) {
+if ( ! function_exists( 'lokal_setup' ) ) {
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -21,10 +21,10 @@ if ( ! function_exists( 'frost_setup' ) ) {
 	 *
 	 * @return void
 	 */
-	function frost_setup() {
+	function lokal_setup() {
 
 		// Make theme available for translation.
-		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'lokal', get_template_directory() . '/languages' );
 
 		// Enqueue editor styles and fonts.
 		add_editor_style(
@@ -38,13 +38,13 @@ if ( ! function_exists( 'frost_setup' ) ) {
 
 	}
 }
-add_action( 'after_setup_theme', 'frost_setup' );
+add_action( 'after_setup_theme', 'lokal_setup' );
 
 // Enqueue style sheet.
-add_action( 'wp_enqueue_scripts', 'frost_enqueue_style_sheet' );
-function frost_enqueue_style_sheet() {
+add_action( 'wp_enqueue_scripts', 'lokal_enqueue_style_sheet' );
+function lokal_enqueue_style_sheet() {
 
-	wp_enqueue_style( 'frost', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'lokal', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
 }
 
@@ -53,32 +53,32 @@ function frost_enqueue_style_sheet() {
  *
  * @since 0.9.2
  */
-function frost_register_block_styles() {
+function lokal_register_block_styles() {
 
 	$block_styles = array(
 		'core/columns' => array(
-			'columns-reverse' => __( 'Reverse', 'frost' ),
+			'columns-reverse' => __( 'Reverse', 'lokal' ),
 		),
 		'core/group' => array(
-			'shadow-light' => __( 'Shadow', 'frost' ),
-			'shadow-solid' => __( 'Solid', 'frost' ),
+			'shadow-light' => __( 'Shadow', 'lokal' ),
+			'shadow-solid' => __( 'Solid', 'lokal' ),
 		),
 		'core/image' => array(
-			'shadow-light' => __( 'Shadow', 'frost' ),
-			'shadow-solid' => __( 'Solid', 'frost' ),
+			'shadow-light' => __( 'Shadow', 'lokal' ),
+			'shadow-solid' => __( 'Solid', 'lokal' ),
 		),
 		'core/list' => array(
-			'no-disc' => __( 'No Disc', 'frost' ),
+			'no-disc' => __( 'No Disc', 'lokal' ),
 		),
 		'core/navigation-link' => array(
-			'outline' => __( 'Outline', 'frost' ),
+			'outline' => __( 'Outline', 'lokal' ),
 		),
 		'core/quote' => array(
-			'shadow-light' => __( 'Shadow', 'frost' ),
-			'shadow-solid' => __( 'Solid', 'frost' ),
+			'shadow-light' => __( 'Shadow', 'lokal' ),
+			'shadow-solid' => __( 'Solid', 'lokal' ),
 		),
 		'core/social-links' => array(
-			'outline' => __( 'Outline', 'frost' ),
+			'outline' => __( 'Outline', 'lokal' ),
 		),
 	);
 
@@ -94,30 +94,30 @@ function frost_register_block_styles() {
 		}
 	}
 }
-add_action( 'init', 'frost_register_block_styles' );
+add_action( 'init', 'lokal_register_block_styles' );
 
 /**
  * Register block pattern categories.
  *
  * @since 1.0.4
  */
-function frost_register_block_pattern_categories() {
+function lokal_register_block_pattern_categories() {
 
 	register_block_pattern_category(
 		'page',
 		array(
-			'label'       => __( 'Page', 'frost' ),
-			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'frost' ),
+			'label'       => __( 'Page', 'lokal' ),
+			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'lokal' ),
 		)
 	);
 	register_block_pattern_category(
 		'pricing',
 		array(
-			'label'       => __( 'Pricing', 'frost' ),
-			'description' => __( 'Compare features for your digital products or service plans.', 'frost' ),
+			'label'       => __( 'Pricing', 'lokal' ),
+			'description' => __( 'Compare features for your digital products or service plans.', 'lokal' ),
 		)
 	);
 
 }
 
-add_action( 'init', 'frost_register_block_pattern_categories' );
+add_action( 'init', 'lokal_register_block_pattern_categories' );

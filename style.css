@@ -1,15 +1,9 @@
 /**
- * @Author: Gulo Solutions
- * @Date:   2023-06-28 11:51:42
- * @Last Modified by:   Gulo Solutions
- * @Last Modified time: 2023-06-28 13:15:20
- */
-/*
 Theme Name: Lokal Base Theme
-Theme URI: https://lokalwp.com/
-Author: WP Engine
-Author URI: https://wpengine.com/
-Description: With its clean, minimal design and powerful feature set, Lokal Base enables agencies to build stylish and sophisticated WordPress websites. Lokal Base is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Lokal Base is perfect for anyone looking to launch quickly and efficiently.
+Theme URI: https://lokalhq.com/
+Author: Lokal
+Author URI: https://lokalhq.com/
+Description: Fork of FrostWP to be used as a parent theme.
 Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks
 Requires at least: 6.2
 Tested up to: 6.2
@@ -18,9 +12,6 @@ Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: lokal
-
-Lokal Base WordPress Theme, (C) 2022-2023 WP Engine.
-Lokal Base is distributed under the terms of the GNU GPL.
 */
 
 

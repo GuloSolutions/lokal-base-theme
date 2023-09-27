@@ -6,7 +6,7 @@ The ultimate WordPress theme for website builders.
 
 ## About
 
-With its clean, minimal design and powerful feature set, Lokal Base enables agencies to build stylish and sophisticated WordPress websites. Lokal Base is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Lokal Base is perfect for anyone looking to launch quickly and efficiently. See the Lokal Base theme in action at [lokalwp.com](https://lokalwp.com/).
+With its clean, minimal design and powerful feature set, Lokal Base enables agencies to build stylish and sophisticated WordPress websites. Lokal Base is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Lokal Base is perfect for anyone looking to launch quickly and efficiently. See the Lokal Base theme in action at [lokalhq.com](https://lokalhq.com/).
 
 Download the latest stable release: [lokal-1.0.4.zip](https://downloads.wordpress.org/theme/lokal.1.0.4.zip)
 
@@ -27,5 +27,5 @@ You can download the latest stable release of Lokal Base using the link above. A
 
 ## Resources
 
-- [Lokal Base website](https://lokalwp.com/)
+- [Lokal Base website](https://lokalhq.com/)
 - [Set up a development environment with Local](https://localwp.com/)

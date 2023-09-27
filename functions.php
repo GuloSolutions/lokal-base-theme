@@ -5,7 +5,7 @@
  * @package Lokal Base
  * @author  WP Engine
  * @license GNU General Public License v2 or later
- * @link    https://lokalwp.com/
+ * @link    https://lokalhq.com/
  */
 
 if ( ! function_exists( 'lokal_setup' ) ) {

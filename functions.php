@@ -45,7 +45,6 @@ add_action( 'wp_enqueue_scripts', 'lokal_enqueue_style_sheet' );
 function lokal_enqueue_style_sheet() {
 
 	wp_enqueue_style( 'lokal', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
-
 }
 
 /**

@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Section with image, text, buttons.
+ * Title: Hero section with image, text, buttons.
  * Slug: lokal/general-hero-two-columns
- * Categories: featured
+ * Categories: page
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->

@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Box with image, text, social icons.
+ * Title: Author with image, text, social icons.
  * Slug: lokal/general-author-box
- * Categories: call-to-action
+ * Categories: posts
  */
 ?>
 <!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|x-small"}},"borderColor":"contrast","layout":{"type":"constrained"}} -->

@@ -159,3 +159,40 @@ function lokal_fix_svg_size_attributes($out, $id)
     return array( $image_url, null, null, false );
 }
 add_filter('image_downsize', 'lokal_fix_svg_size_attributes', 10, 2);
+
+// Change the WordPress admin login logo
+function lokal_custom_login_logo() {
+    echo '<style type="text/css">
+        h1 a { background-image:url('. get_template_directory_uri() .'/assets/images/logo-lokal.png) !important;
+        background-size: 120px 120px!important;
+        border-radius: 120px !important;
+        height: 120px !important;
+        width: 120px !important; }
+    </style>';
+}
+add_action('login_head', 'lokal_custom_login_logo');
+
+// Change the URL of the admin login logo
+function lokal_custom_login_url(){
+    return 'http://lokalhq.com/'; // Replace with your desired URL
+}
+add_filter('login_headerurl', 'lokal_custom_login_url');
+
+// Open URL in new tab
+function lokal_custom_login_logo_link_target() {
+    ?>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var a = document.getElementById('login').getElementsByTagName('a')[0];
+            a.target = '_blank';
+        });
+    </script>
+    <?php
+}
+add_action('login_footer', 'lokal_custom_login_logo_link_target');
+
+// Optional: Change the hover text of the admin login logo
+function lokal_custom_login_title() {
+    return 'Built by Lokal';
+}
+add_filter('login_headertext', 'lokal_custom_login_title');

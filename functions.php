@@ -196,3 +196,6 @@ function lokal_custom_login_title() {
     return 'Built by Lokal';
 }
 add_filter('login_headertext', 'lokal_custom_login_title');
+
+// Optional: add Menus in Appearance > Menus. As opposed to adding within Editor
+add_theme_support( 'menus' );

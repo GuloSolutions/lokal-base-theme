@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with heading, text, button.
- * Slug: lokal/footer-stacked-contrast-background
+ * Slug: lokal/footer-stacked-dark
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -19,6 +19,6 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">© <?php echo esc_html( gmdate( 'Y' ) ); ?> Your Company LLC · <a href="#"><?php echo esc_html__( 'Contact Us', 'lokal' ); ?></a></p>
+<p class="has-text-align-center has-small-font-size">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html__( 'Your Company LLC', 'lokal' ); ?> · <a href="#"><?php echo esc_html__( 'Contact Us', 'lokal' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

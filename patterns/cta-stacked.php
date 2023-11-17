@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call-to-action with text, button.
- * Slug: lokal/general-cta-stacked
+ * Slug: lokal/cta-stacked
  * Categories: call-to-action
  */
 ?>

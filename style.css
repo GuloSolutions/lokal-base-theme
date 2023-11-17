@@ -5,10 +5,10 @@ Author: Lokal
 Author URI: https://lokalhq.com/
 Description: Fork of FrostWP to be used as a parent theme.
 Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks
-Requires at least: 6.2
-Tested up to: 6.2
-Requires PHP: 5.6
-Version: 1.0.4
+Requires at least: 6.3
+Tested up to: 6.3
+Requires PHP: 7.0
+Version: 1.0.6
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: lokal
@@ -16,7 +16,7 @@ Text Domain: lokal
 
 
 /* Defaults
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
 *,
 *::before,
@@ -58,8 +58,7 @@ mark {
 	background-size: 100% 15%;
 }
 
-/* Forms
---------------------------------------------- */
+/* -- Forms -- */
 
 input,
 select,
@@ -104,10 +103,9 @@ textarea {
 }
 
 /* Blocks
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
-/* Code
---------------------------------------------- */
+/* -- Code -- */
 
 *:not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--neutral);
@@ -115,42 +113,14 @@ textarea {
 	padding: 5px 8px;
 }
 
-/* Group
---------------------------------------------- */
-
-.wp-block-group.is-style-shadow-light {
-	box-shadow: var(--wp--preset--shadow--light);
-}
-
-.wp-block-group.is-style-shadow-solid {
-	box-shadow: var(--wp--preset--shadow--shadow);
-}
-
-/* Image
---------------------------------------------- */
-
-.wp-block-image.is-style-shadow-light img {
-	box-shadow: var(--wp--preset--shadow--light);
-}
-
-.wp-block-image.is-style-shadow-solid img {
-	box-shadow: var(--wp--preset--shadow--solid);
-}
-
-/* List
---------------------------------------------- */
-
-.is-style-no-disc {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-/* Navigation
---------------------------------------------- */
+/* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding-bottom: 30px;
-	padding-top: 30px
+	padding: var(--wp--custom--spacing--gap);
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+	padding-top: var(--wp--custom--spacing--gap);
 }
 
 .wp-block-navigation__responsive-container-close,
@@ -164,8 +134,7 @@ textarea {
 	color: var(--wp--preset--color--base);
 }
 
-/* Navigation Submenu
---------------------------------------------- */
+/* -- Navigation Submenu -- */
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--contrast);
@@ -178,36 +147,22 @@ textarea {
 	padding: 2px 10px;
 }
 
-/* Quote
---------------------------------------------- */
-
-.wp-block-quote.is-style-shadow-light {
-	box-shadow: var(--wp--preset--shadow--light);
-}
-
-.wp-block-quote.is-style-shadow-solid {
-	box-shadow: var(--wp--preset--shadow--solid);
-}
-
 /* Media Queries
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
-	/* Navigation Link
-	--------------------------------------------- */
+	/* -- Utility -- */
 
-	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid currentColor;
-		padding: 8px 15px;
+	.is-style-hidden-mobile {
+		display: none !important;
 	}
 
 }
 
 @media only screen and (max-width: 782px) {
 
-	/* Columns
-	--------------------------------------------- */
+	/* -- Columns -- */
 
 	.is-style-columns-reverse {
 		flex-direction: column-reverse;

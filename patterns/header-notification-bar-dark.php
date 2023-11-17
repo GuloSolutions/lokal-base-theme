@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header notification bar with text, button.
- * Slug: lokal/header-notification-bar-contrast-background
+ * Slug: lokal/header-notification-bar-dark
  * Categories: header
  * Block Types: core/template-part/header
  */

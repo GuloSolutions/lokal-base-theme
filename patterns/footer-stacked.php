@@ -19,6 +19,6 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">© 2023 Your Company LLC · <a href="#"><?php echo esc_html__( 'Contact Us', 'lokal' ); ?></a></p>
+<p class="has-text-align-center has-small-font-size">&copy; 2023 <?php echo esc_html__( 'Your Company LLC', 'lokal' ); ?> · <a href="#"><?php echo esc_html__( 'Contact Us', 'lokal' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

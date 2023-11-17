@@ -8,12 +8,12 @@ The ultimate WordPress theme for website builders.
 
 With its clean, minimal design and powerful feature set, Lokal Base enables agencies to build stylish and sophisticated WordPress websites. Lokal Base is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Lokal Base is perfect for anyone looking to launch quickly and efficiently. See the Lokal Base theme in action at [lokalhq.com](https://lokalhq.com/).
 
-Download the latest stable release: [lokal-1.0.4.zip](https://downloads.wordpress.org/theme/lokal.1.0.4.zip)
+Download the latest stable release: [frost-1.0.6.zip](https://downloads.wordpress.org/theme/frost.1.0.6.zip)
 
 ## Requirements
 
-- WordPress 6.2+
-- PHP 5.6+
+- WordPress 6.3+
+- PHP 7.0+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 ## Getting Started
@@ -21,7 +21,7 @@ Download the latest stable release: [lokal-1.0.4.zip](https://downloads.wordpres
 You can download the latest stable release of Lokal Base using the link above. Alternatively, install the entire repository for development purposes:
 
 1. Set up a local WordPress development environment, we recommend using [Local](https://localwp.com/).
-2. Ensure you are using WordPress 6.2+.
+2. Ensure you are using WordPress 6.3+.
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate Lokal Base.
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Box with heading, text.
- * Slug: lokal/general-newsletter-signup-contrast-background
+ * Slug: lokal/newsletter-signup-dark
  * Categories: call-to-action
  */
 ?>

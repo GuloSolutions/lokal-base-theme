@@ -2,7 +2,7 @@
 /**
  * Title: 404 error content.
  * Slug: lokal/404
- * Inserter: false
+ * Inserter: no
  */
 ?>
 <!-- wp:heading {"level":1} -->

@@ -26,12 +26,8 @@ if ( ! function_exists( 'lokal_setup' ) ) {
 		// Make theme available for translation.
 		load_theme_textdomain( 'lokal', get_template_directory() . '/languages' );
 
-		// Enqueue editor styles and fonts.
-		add_editor_style(
-			array(
-				'./style.css',
-			)
-		);
+		// Enqueue editor style sheet.
+        add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
@@ -63,15 +59,8 @@ function lokal_register_block_styles() {
 			'shadow-light' => __( 'Shadow', 'lokal' ),
 			'shadow-solid' => __( 'Solid', 'lokal' ),
 		),
-		'core/image' => array(
-			'shadow-light' => __( 'Shadow', 'lokal' ),
-			'shadow-solid' => __( 'Solid', 'lokal' ),
-		),
 		'core/list' => array(
 			'no-disc' => __( 'No Disc', 'lokal' ),
-		),
-		'core/navigation-link' => array(
-			'outline' => __( 'Outline', 'lokal' ),
 		),
 		'core/quote' => array(
 			'shadow-light' => __( 'Shadow', 'lokal' ),

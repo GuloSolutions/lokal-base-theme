@@ -48,7 +48,7 @@ a:not(.wp-element-button) {
 b,
 strong,
 th {
-	font-weight: var(--wp--custom--font-weight--medium);
+	font-weight: bold;
 }
 
 mark {

@@ -28,6 +28,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 a,
 button,
 input:focus,
@@ -181,4 +186,60 @@ textarea {
 		flex-direction: column-reverse;
 	}
 
+}
+
+.responsive-columns-slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 8px 0;
+}
+
+@media (max-width: 767px) {
+    .responsive-columns-slider .wp-block-columns {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .responsive-columns-slider .slider-track {
+        display: flex;
+        transition: transform 0.3s ease;
+        width: 100%;
+    }
+    
+    .responsive-columns-slider .wp-block-column {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+        margin: 0 !important;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 768px) {
+    .slider-dots {
+        display: none;
+    }
+}
+
+.slider-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slider-dot.active {
+    background: #000;
 }

@@ -85,33 +85,6 @@ function lokal_register_block_styles() {
 }
 add_action( 'init', 'lokal_register_block_styles' );
 
-/**
- * Register block pattern categories.
- *
- * @since 1.0.4
- */
-function lokal_register_block_pattern_categories() {
-
-	register_block_pattern_category(
-		'page',
-		array(
-			'label'       => __( 'Page', 'lokal' ),
-			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'lokal' ),
-		)
-	);
-	register_block_pattern_category(
-		'pricing',
-		array(
-			'label'       => __( 'Pricing', 'lokal' ),
-			'description' => __( 'Compare features for your digital products or service plans.', 'lokal' ),
-		)
-	);
-
-}
-
-add_action( 'init', 'lokal_register_block_pattern_categories' );
-
-
 /*
 * Allow to upload SVG into Media
 */

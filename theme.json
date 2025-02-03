@@ -599,7 +599,6 @@
 			},
 			"heading": {
 				"typography": {
-					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
 			},

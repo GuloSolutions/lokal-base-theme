@@ -17,10 +17,6 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"bottom":"30px"}},"typography":{"fontSize":"18px"}},"className":"post-meta","layout":{"type":"flex"}} -->
 <div class="wp-block-group post-meta" style="margin-bottom:30px;font-size:18px">
 <!-- wp:post-date /-->
-<!-- wp:paragraph -->
-<p>·</p>
-<!-- /wp:paragraph -->
-<!-- wp:post-author-name {"isLink":true} /-->
 </div>
 <!-- /wp:group -->
 </header>

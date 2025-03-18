@@ -16,10 +16,6 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"10px"}}},"layout":{"type":"flex"},"fontSize":"x-small"} -->
 <div class="wp-block-group has-x-small-font-size" style="margin-top:10px">
 <!-- wp:post-date /-->
-<!-- wp:paragraph -->
-<p>·</p>
-<!-- /wp:paragraph -->
-<!-- wp:post-author-name {"isLink":true} /-->
 </div>
 <!-- /wp:group -->
 <!-- wp:post-excerpt {"moreText":"Read More →","excerptLength":20,"fontSize":"small"} /-->

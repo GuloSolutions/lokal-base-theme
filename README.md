@@ -6,7 +6,7 @@ To edit or add to this theme:
 2. Go to Settings, Advanced. Use 'localhost' within Router mode.
 3. Create a new site named lokal-base-theme.
 4. Click Site Shell in Local.app and `cd wp-content/themes/`
-5. `git clone cd git@github.com:GuloSolutions/lokal-base-theme.git`
+5. `git clone git@github.com:GuloSolutions/lokal-base-theme.git`
 6. Edit away.
 
 
